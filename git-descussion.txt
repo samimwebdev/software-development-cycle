@@ -1,0 +1,45 @@
+Version control
+Let's Discuss some history
+
+
+Directory       staging               update(saving new version)
+==========     =============          =========================
+file/folder   git add filename/.(all)   git commit-a 'message'  
+
+https://www.freecodecamp.org/news/git-cheat-sheet/
+Essential command
+==================================
+git config --global user.email "signups@fabiopacifici.com"
+git config --global user.name 'your name'
+git init (initialize git repository)
+git add filename or .(all)
+git status (to see changes)
+git log --stat ( more message)
+git commit (final update)
+git commit -a -m "your commit message here" (skipping staging)
+git log (commit/update history)
+git show commit-id(shop specific update)
+git diff 
+git diff --staged(staged changes)
+
+git checkout filename (revert unstaged changes)
+git revert HEAD (revert last commit)
+git rm filename (remove tracked files)
+git branch
+git branch branch_name
+git checkout branch_name
+
+git add remote https://repo_here
+
+git remote -v
+git remote show origin
+git push 
+git pull
+git push -u origin branch_name
+git push --delete origin branch_name_here
+
+
+//gitignore
+
+Github
+git remote 
