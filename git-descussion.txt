@@ -1,10 +1,17 @@
-Version control
+Version control system 
+cntr + z(10-20) - 4 hours
 Let's Discuss some history
+
+Blog application
+-registation/Login System(Ist version)
+-commenting system (2nd version)
+-searching system (3rd version)
+-blog add , update, delete system (4rd version)
 
 
 Directory       staging               update(saving new version)
 ==========     =============          =========================
-file/folder   git add filename/.(all)   git commit-a 'message'  
+file/folder   git add filename/.(all)   git commit -m 'message'  
 
 https://www.freecodecamp.org/news/git-cheat-sheet/
 Essential command
@@ -18,7 +25,7 @@ git log --stat ( more message)
 git commit (final update)
 git commit -a -m "your commit message here" (skipping staging)
 git log (commit/update history)
-git show commit-id(shop specific update)
+git show commit-id(show specific update)
 git diff 
 git diff --staged(staged changes)
 
